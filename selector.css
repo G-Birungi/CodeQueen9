@@ -1,0 +1,20 @@
+/*Universal Selector selects everything*/
+*{
+    background-color: aquamarine;
+}
+
+/*Descendants Selector*/
+.main-content p{
+    color: red;
+}
+
+/*Direct Child Selector*/
+.main-content1>p{
+    color: green;
+}
+
+/*Adjacent Sibling Selector*/
+.groups h2+p{
+    color: blue;
+}
+
